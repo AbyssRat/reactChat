@@ -1,8 +1,8 @@
-const Cikk = () => {
+const Cikk = (title, content) => {
     return (
         <article>
-            <h2>Cikk címe</h2>
-            <p>Ez egy példa cikk tartalma.</p>
+            <h2>{title}</h2>
+            <p>{content}</p>
         </article>
     );}
 

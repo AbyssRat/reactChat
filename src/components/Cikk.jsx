@@ -1,4 +1,4 @@
-const Cikk = (title, content) => {
+const Cikk = ({title, content}) => {
     return (
         <article>
             <h2>{title}</h2>

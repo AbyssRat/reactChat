@@ -10,7 +10,9 @@ const cikkek = [
     <>
 
 
-    <Cikk />
+      {cikkek.map(cikk => (
+        <Cikk key={cikk.id} title={cikk.title} content={cikk.content} />
+      ))}
     
 
     </>
